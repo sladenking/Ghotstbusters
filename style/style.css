@@ -39,6 +39,7 @@ body {
 }
 .header__nav-link {
   text-decoration: none;
+  color: #000;
   font-size: 18px;
   line-height: 21px;
   margin-right: 18px;
@@ -217,4 +218,81 @@ body {
 }
 .card-en-name {
   color: #a5a5a5;
+}
+.news {
+  background: #F3F3F3;
+  padding: 80px 0;
+}
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.news-card {
+  flex-basis: 23%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+.section-news-title {
+  margin-bottom: 60px;
+}
+.news-date {
+  font-size: 14px;
+  line-height: 16px;
+}
+.news-title {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 15px;
+}
+
+/* media */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .card-img {
+    width: 70px;
+    height: 70px;
+  }
+  .header {
+    height: 80px;
+  }
+  .header__search-input {
+    margin-left: 20px;
+  }
+  .header__nav {
+    margin-right: 20px;
+  }
+  .header__nav-link {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1010px) {
+  .container {
+    max-width: 760px;
+  }
+  .main-title {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .main-subtitle {
+    margin-bottom: 20px;
+  }
+  .main-description, .main-about {
+    margin-bottom: 20px;
+  }
+  .main-rating {
+    margin-top: 28px;
+  }
+  .about-text-bold {
+    display: block;
+  }
+  .main-rating-counter {
+    width: 80px;
+    height: 80px;
+  }
 }
